@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Kode Mono"; /*(Irish Grover) */
+  src: url('fonts/KodeMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+    background-image:url("fon_obl.jpg");
+}
+
+header{
+    background: linear-gradient(#FFF, #6AB3CE); 
+    opacity: 0.7;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width:150px;
+    height: 150px;
+}
+
+nav button{
+    color: black;
+    text-align: center;
+    margin-inline: 100px;
+    background-color: #9EC7E7;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px 0px 50px 50px;
+    width: 290px;
+    border: 0px;
+    box-shadow: 0px 5px rgba(28, 95, 150, 0.249);
+    font-family: "Kode Mono", monospace;
+}
+
+main img{
+    width: 640px;
+    height: 450px;
+    border: 12px solid white;
+    border-radius: 50px;
+}
+
+
+main{
+    display: flex;
+    margin-top: 50px;
+}
+span{
+    font-family: "Kode Mono", monospace;
+    font-size: 24px;
+    color: #001131;
+    font-weight: bold;
+
+}
+
+header span{
+    font-size: 64px;
+    margin-left: 50px;
+}
+
+.btn_nav:hover {
+    width: 300px;
+    background-color: #032055;
+    color: white;
+    font-size: 25px;
+}
+main img:hover{
+    width: 650px;
+    height: 460px;
+    border: 12px solid rgb(92, 120, 206);
+    border-radius: 50px;
+}
